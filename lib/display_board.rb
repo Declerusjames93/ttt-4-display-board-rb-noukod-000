@@ -2,7 +2,6 @@
 # out the current state.
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 # Leave hint for assigning the 0 index value of O
-board[0] = "O"
 def display_board(board)
 
   puts "#{board[0]} |  #{board[1]}  |  #{board[2]}"
